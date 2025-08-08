@@ -68,7 +68,7 @@ variable "health_check_path" {
   type        = string
 }
 
-variable "node_env" {
-  description = "Node.js environment variable (e.g., production)"
+variable "flask_env" {
+  description = "Flask environment variable (e.g., production)"
   type        = string
 }

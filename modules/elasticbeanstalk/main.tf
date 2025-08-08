@@ -100,8 +100,8 @@ resource "aws_elastic_beanstalk_environment" "env" {
 
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
-    name      = "NODE_ENV"
-    value     = var.node_env
+    name      = "FLASK_ENV"
+    value     = var.flask_env
   }
 
   tags = {
